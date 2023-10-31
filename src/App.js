@@ -16,8 +16,6 @@ function App() {
   return (
     <div className="App">
       <Layout>
-
-
 <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<AboutUs/>} />
