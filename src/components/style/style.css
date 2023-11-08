@@ -1,0 +1,11 @@
+
+.sectionHeader{
+    font-size: 32px;
+    font-family: 'lato',sans-serif;
+    text-align: center;
+    margin: 32px auto;
+}
+
+.nav-link:hover{
+    color:"#c08541",
+}

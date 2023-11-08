@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import logo from '../../images/logo.svg'
+import "../style/style.css"
 function Header() {
 
 
@@ -12,7 +14,7 @@ function Header() {
       <Navbar bg="light" expand="lg" expanded={expanded} >
         <Container>
           <Navbar.Brand href="#">
-            hi ahmd
+            <img src={logo} alt='quickActionImage' width="260" height="70" />
             </Navbar.Brand>
           <Navbar.Toggle onClick={toggleNavbar} aria-controls="navbar"  />
           <Navbar.Collapse id="navbar" className='justify-content-end'>
